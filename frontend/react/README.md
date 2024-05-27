@@ -1,3 +1,23 @@
+Frontend Architecture
+React Application
+react-app/
+├── public/              # Public assets
+├── src/
+│   ├── components/      # Reusable components (e.g., TaskList, TaskItem)
+│   ├── pages/           # Application pages (e.g., Home, Login, Register)
+│   ├── services/        # Services for API calls
+│   ├── contexts/        # Context providers for state management
+│   ├── App.js           # Main application component
+│   └── index.js         # Entry point
+├── json-server/         # Mock API using json-server
+│   ├── db.json          # Mock database file
+│   └── server.js        # Server configuration
+├── .env                 # Environment variables
+└── package.json         # Project configuration and dependencies
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
