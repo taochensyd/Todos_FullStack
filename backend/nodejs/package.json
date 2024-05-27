@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Backend Architecture Node.js with Express node-express/ ├── src/ │   ├── controllers/     # Request handlers (e.g., authController, taskController) │   ├── models/          # Data models (e.g., User, Task) │   ├── routes/          # Route definitions (e.g., authRoutes, taskRoutes) │   ├── middleware/      # Middleware functions (e.g., authMiddleware) │   ├── config/          # Configuration files (e.g., dbConfig, jwtConfig) │   ├── app.js           # Main application file │   └── server.js        # Server entry point ├── .env                 # Environment variables └── package.json         # Project configuration and dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.8",
+    "nodemon": "^3.1.1"
+  }
+}
